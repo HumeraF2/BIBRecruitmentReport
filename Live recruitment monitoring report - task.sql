@@ -69,7 +69,7 @@ where Sqnce=1
 SELECT * FROM
 (
 select ROW_NUMBER () OVER (PARTITION BY HospitalNumberMother, Pregnancy_ID ORDER BY Date_Of_Booking, Spoken_Language_Ability_Understands_English) as Sqnce, *
-FROM [BHTS-RESEARCH2].WHMATERNITY.[dbo].[CernerAntenatalBookings]
+FROM [xxxxx].xxxx.[dbo].[xxxxx]
 ) TT
 
 WHERE Sqnce = 1
@@ -81,7 +81,7 @@ WHERE Sqnce = 1
 SELECT * FROM
 (
 select ROW_NUMBER() OVER (PARTITION BY HospitalNumberMother, Pregnancy_id, FORM_DT_TM ORDER BY  HospitalNumberMother, FORM_DT_TM DESC) as Sqnce, *
-FROM [BHTS-RESEARCH2].WHMATERNITY.[dbo].[CernerMaternityEligible_BiB4All]
+FROM [xxxxx].xxxx.[dbo].[xxxxx]
 )TT
 
 Where Sqnce=1
