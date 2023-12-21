@@ -19,38 +19,38 @@ GO
 WITH APPT AS (
 
 SELECT	 HospitalNumberMother, Event_Date, PREGNANCY_ID, '16-Week Appoinment' as [Antenatal Appointment]
-FROM	 [BHTS-DATAWH2].Information.[research].[MATERNITY_REPORT_BIB_ANTENATAL_16_WEEK_APPOINTMENT_PART1]
+FROM	 [xxxxx].xxxxx.[xxxxx].[MATERNITY_REPORT_BIB_ANTENATAL_16_WEEK_APPOINTMENT_PART1]
 
 UNION ALL
 
 SELECT   HospitalNumberMother, Event_Date, Pregnancy_id, '28-Week Appoinment' as [Antenatal Appointment]
-FROM     [BHTS-DATAWH2].Information.[research].[MATERNITY_REPORT_BIB_ANTENATAL_28_WEEK_APPOINTMENT_PART1]
+FROM     [xxxxx].xxxxx.[xxxxx].[MATERNITY_REPORT_BIB_ANTENATAL_28_WEEK_APPOINTMENT_PART1]
 
 UNION ALL
 
 SELECT   MotherHospitalNumber, Event_Date, Pregnancy_id, '31-Week Appoinment' as [Antenatal Appointment]
-FROM    [BHTS-DATAWH2].Information.[research].[MATERNITY_REPORT_BIB_ANTENATAL_31_WEEK_APPOINTMENT_PART1]
+FROM    [xxxxx].xxxxx.[xxxxx].[MATERNITY_REPORT_BIB_ANTENATAL_31_WEEK_APPOINTMENT_PART1]
 
 UNION ALL
 
 SELECT   HospitalNumberMother, Event_Date, PREGNANCY_ID, '34-Week Appoinment' as [Antenatal Appointment]
-FROM	[BHTS-DATAWH2].Information.[research].[MATERNITY_REPORT_BIB_ANTENATAL_34_WEEK_APPOINTMENT_PART1]
+FROM	[xxxxx].xxxxx.[xxxxx].[MATERNITY_REPORT_BIB_ANTENATAL_34_WEEK_APPOINTMENT_PART1]
 
 UNION ALL
 
 SELECT   HospitalNumberMother, Event_Date, Pregnancy_id, '36-Week Appoinment' as [Antenatal Appointment]
-FROM	[BHTS-DATAWH2].Information.[research].[MATERNITY_REPORT_BIB_ANTENATAL_36_WEEK_APPOINTMENT_PART1]
+FROM	[xxxxx].xxxxx.[xxxxx].[MATERNITY_REPORT_BIB_ANTENATAL_36_WEEK_APPOINTMENT_PART1]
 
 UNION ALL
 
 SELECT   HospitalNumberMother, Event_Date, Pregnancy_id, '40-Week Appoinment' as [Antenatal Appointment]
-FROM	[BHTS-DATAWH2].Information.[research].[MATERNITY_REPORT_BIB_ANTENATAL_40_WEEK_APPOINTMENT_PART1]
+FROM	[xxxxx].xxxxx.[xxxxx].[MATERNITY_REPORT_BIB_ANTENATAL_40_WEEK_APPOINTMENT_PART1]
 
 UNION ALL
 
 
 SELECT   HospitalNumberMother, Event_Date, Pregnancy_id, 'Additional Appoinment' as [Antenatal Appointment]
-FROM	[BHTS-DATAWH2].Information.[research].[MATERNITY_REPORT_BIB_ANTENATAL_ADDITIONAL_ROUTINE_APPOINTMENT_PART1]
+FROM	[xxxxx].xxxxx.[xxxxx].[MATERNITY_REPORT_BIB_ANTENATAL_ADDITIONAL_ROUTINE_APPOINTMENT_PART1]
 
 )
 , Appt_Deduped as (
